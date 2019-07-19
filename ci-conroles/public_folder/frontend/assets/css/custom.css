@@ -1,0 +1,54 @@
+/* Add here all your css styles (customizations) */
+
+/*  link header */
+.nav-item > a,
+.nav-item > .nav-link,
+[class*="u-tab-link"]:not([class*="-icon"]) {
+  transition-property: color, background-color, border-color;
+  transition-duration: .2s;
+  transition-timing-function: ease-in; text-decoration: none;}
+.nav-item > a:hover{color: #fff;}
+
+.bg-header{background: #191919;}
+.link-header a{color: #ccc; text-decoration: none;}
+.link-header a:hover{color:#fff;}
+
+.nav-item .orange a{color: red}
+
+
+/* eventos */
+.evento_pendiente{border-right: 2px solid red; padding-top: .8em;}
+.evento_aprobado{border-right: 2px solid green;}
+.card_logo{ width: 15%; float: left; margin: .5em}
+.card_descripcion{ width: 60%; float: left;}
+.card_button{ width: 22%; float: left;}
+.card_wrapper{border: 1px solid #ddd}
+.bg-gray{background: #ddd; padding: .2em .4em; border-radius: .4em;}
+
+
+.box-notificacion-evento{padding: .9em; text-align: center;}
+.box-notificacion-evento a{text-decoration: none;}
+.no-border{border:none;}
+
+.dashed-orange{border:1px dashed orange;}
+.dashed-orange a{color: orange;}
+a.button-orange{background-color: orange; border-radius: .8em; text-align: center; color: #fff; padding: .5em 1em}
+a.button-orange:hover{color: gray;}
+
+
+.dashed-gray{border:1px dashed gray;}
+.dashed-gray a{color: gray;}
+
+.dashed-green{border:1px dashed green;}
+.dashed-green a{color: green;}
+a.button-blue{text-align: center; color: green; padding: .5em 1em}
+a.button-blue:hover{color: #000;}
+
+
+.dashed-blue{border:1px dashed #16c6f5;}
+.dashed-blue a{color: #16c6f5;}
+a.button-blue{background-color: #16c6f5; border-radius: .8em; text-align: center; color: #fff; padding: .5em 1em}
+a.button-blue:hover{color: #000;}
+
+.dashed-sky{border:1px dashed #009bd6;}
+.dashed-sky a{color: #009bd6;}

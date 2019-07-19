@@ -1,0 +1,9 @@
+Over the past 2 weeks, how often have you been bothered by any of the following problems?
+
+
+<%= form_for @questionarie, url:{ action: 'create'} do |f| %>
+
+    <%= select_tag "Pregunta uno", options_for_select([["answer one",0], ["answertwo",2]]) %>
+
+    <%= submit_tag "Create" %>
+<% end %>
